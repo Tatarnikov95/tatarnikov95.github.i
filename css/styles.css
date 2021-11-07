@@ -1,0 +1,186 @@
+:root {
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --third-text-color: #2196f3;
+  --fourth-text-color: #ffffff;
+  --five-text-color: #000000;
+  --six-text-color: rgba(255, 255, 255, 0.6);
+  --background-text-color: #2f303a;
+}
+body {
+  font-family: 'Roboto', 'Raleway';
+  color: var(--main-text-color);
+}
+a {
+  text-decoration: none;
+  cursor: auto;
+}
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+/* Название */
+.slogan {
+  color: var(--third-text-color);
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.second-slogan {
+  color: var(--five-text-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+/* Nav */
+.link {
+  color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.link:hover,
+.link:focus {
+  color: var(--third-text-color);
+}
+/* связь с нами */
+.second-link {
+  color: var(--second-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.second-link:hover,
+.second-link:focus {
+  color: var(--third-text-color);
+}
+/* Заказать услугу*/
+.main-section {
+  background-color: var(--background-text-color);
+  width: 1600px;
+  height: 600px;
+}
+.main-title {
+  color: var(--fourth-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+}
+.buttons {
+  background-color: var(--third-text-color);
+  color: var(--fourth-text-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+.buttons:focus {
+  color: var(--fourth-text-color);
+}
+/* Наша особенность */
+.subtitle {
+  color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.text {
+  color: var(--second-text-color);
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+/* Чем мы занимаемся */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+/* Наша команда */
+.second-title {
+  color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+/* Footer */
+.footer {
+  background-color: var(--background-text-color);
+  width: 1600px;
+  height: 252px;
+}
+.address {
+  color: var(--fourth-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+.address:hover,
+.address:focus {
+  color: var(--third-text-color);
+}
+.second-address {
+  color: var(--six-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+.second-address:hover,
+.second-address:focus {
+  color: var(--third-text-color);
+}
+.slogan-footer {
+  color: var(--fourth-text-color);
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+/* Портфолио */
+.caption {
+  display: none;
+}
+.second-buttons {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.second-buttons:hover,
+.second-buttons:focus {
+  background-color: var(--third-text-color);
+  color: var(--fourth-text-color);
+}
+
+/* Примеры */
+.list-item {
+  color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.second-list-item {
+  color: var(--second-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
